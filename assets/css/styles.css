@@ -1,0 +1,108 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: Poppins,sans-serif;
+   outline: none;
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+   background: #edede9;
+}
+
+.list__container{
+   width: 30%;
+   padding: 30px;
+   border-radius: 10px;
+   background: #dad7cd;
+}
+
+.list__form{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   /* padding: 10px 5px; */
+}
+
+.list__input{
+   position: relative;
+   flex: 1;
+}
+
+.list__search{
+   width: 100%;
+   background: #fff;
+   font-size: 17px;
+   border: 2px solid #e3e3e3;
+   padding: 7px;
+   border-radius: 5px;
+}
+
+.fa-xmark{
+   position: absolute;
+   right: 20px;
+   top: 15px;
+   color: #9c9b96;
+   opacity: 0;
+   cursor: pointer;
+}
+
+.list__btn{
+   padding: 7px;
+   border-radius: 5px;
+   border: 1px solid #fff;
+   font-size: 17px;
+   background: #fff;
+   color: #9c9b96;
+   cursor: pointer;
+}
+
+.list__options{
+   margin-top: 10px;
+}
+
+.list__input.border{
+   border: 1px solid red;
+   border-radius: 5px   ;
+}
+
+.list__option{
+   background: #f3f1f1;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   padding: 7px 10px;
+   align-items: center;
+}
+
+.list__option-text{
+   flex: 1;
+}
+
+.list__option-text.active{
+   text-decoration: line-through;
+}
+
+.fa-circle{
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+.list__option-button i{
+   font-size: 18px;
+   margin-left: 7px;
+   cursor: pointer;
+}
+
+.fa-trash-can{
+   color: red;
+}
+
+
